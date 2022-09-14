@@ -14,10 +14,10 @@ To showcase what you've learned in the development websites with Python course. 
 
 ## Edit this page and add info about your project 
 
-### Project Name : 
+### Project Name : Bookstore
 
 
-### Project Description :
+### Project Description : A website for buying and selling used textbooks.
 
 
-### Project Features :
+### Project Features : Connects buyers and sellers of used books in one convenient place!
