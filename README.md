@@ -10,3 +10,14 @@ To showcase what you've learned in the development websites with Python course. 
 - One model or more (including adding data, reading data from the database)
 - Use static files (images, videos, etc.) to enrich your website. 
 - Use a styling library to make your website look good and responsive (for example: Bootstrap)
+
+
+## Edit this page and add info about your project 
+
+### Project Name : 
+
+
+### Project Description :
+
+
+### Project Features :
