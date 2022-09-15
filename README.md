@@ -14,10 +14,10 @@ To showcase what you've learned in the development websites with Python course. 
 
 ## Edit this page and add info about your project 
 
-### Project Name : 
+### Project Name : Blog
 
 
-### Project Description :
+### Project Description : Blog website you need an account to publish and can edit and delete
 
 
-### Project Features :
+### Project Features : theres froala_Editor to help youwith writing.
