@@ -26,13 +26,18 @@
             <!-- image logo-->
             <span class="fs-4">Elevator Speech</span>
         </a>
-
+        {% with request.resolver_match.url_name as url_name %}
         <ul class="nav nav-pills">
-            <li class="nav-item"><a href="{% url 'resume:home' %}" class="nav-link active" aria-current="page">Home</a>
+            <li class="nav-item"><a href="{% url 'resume:home' %}"
+                    class="nav-link {% if url_name == 'home' %}active{% endif %}" aria-current="page">Home</a>
             </li>
-            <li class="nav-item"><a href="{% url 'resume:add-resume' %}" class="nav-link">Ride Elevator</a></li>
-            <li class="nav-item"><a href="{% url 'resume:about' %}" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="{% url 'resume:addresume' %}"
+                    class="nav-link {% if url_name == 'addresume' %}active{% endif %}">Ride
+                    Elevator</a></li>
+            <li class="nav-item"><a href="{% url 'resume:about' %}"
+                    class="nav-link {% if url_name == 'about' %}active{% endif %}">About</a></li>
         </ul>
+        {% endwith %}
     </header>
 
 
@@ -48,7 +53,7 @@
             <div class="row p-3">
                 <div class="col-sm-12 text-center">
                     <h4>Elevator Speech</h4>
-                    <h6>Market Yourself</h6>
+                    <h6>Market <mark>Yourself</mark></h6>
                 </div>
             </div>
         </div>

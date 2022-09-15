@@ -127,3 +127,23 @@ header {
     text-align: center;
     font-weight: bold;
 }
+
+i {
+    color: #5E60CE;
+    font-size: 20px;
+}
+
+.pdf-link {
+    color: #5E60CE;
+    text-decoration: none;
+}
+
+/* .card-resume:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: #ade8f4;
+} */
+
+.about-title {
+    font-size: 20px;
+}
