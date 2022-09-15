@@ -14,10 +14,16 @@ To showcase what you've learned in the development websites with Python course. 
 
 ## Edit this page and add info about your project 
 
-### Project Name : 
+### Project Name : organizer
 
 
-### Project Description :
+### Project Description : organizer is a project that helps indivisuals to orginze there daily tasks
 
 
 ### Project Features :
+- sign up
+-log in
+- add board
+- add task
+- view tasks 
+- view board
