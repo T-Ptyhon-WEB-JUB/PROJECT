@@ -27,3 +27,9 @@ To showcase what you've learned in the development websites with Python course. 
 - add task
 - view tasks 
 - view board
+
+Done by :
+Thamer Balharith
+Muath Al-Ghamdi
+Rakan Al-Qahtani
+Nawaf Alharbi
