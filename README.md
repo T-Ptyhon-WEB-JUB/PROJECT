@@ -16,7 +16,10 @@ To showcase what you've learned in the development websites with Python course. 
 
 ### Project Name : 
 jubail Schooler for Transportation 
-
+By:
+Reem Alotaibi 
+Areej Alqahtani 
+Renad Almubarak
 
 ### Project Description :
 Bus registration website for the 6th high school in Jubail Industrial City.
