@@ -22,5 +22,5 @@ To showcase what you've learned in the development websites with Python course. 
 
 ### Project Features :It makes it easier for stakeholders to reach qualified employees
 
-###Team: Amal Alshathri , Fatima Alqadheeb , Hawra Al Mohssin
+### Team: Amal Alshathri , Fatima Alqadheeb , Hawra Al Mohssin
 
