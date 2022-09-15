@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="{% static 'css/all.min.css'%}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/main.css'%}" type="text/css">
+    <title>{% block title %}{% endblock %}</title>
+
+</head>
+
+<body>
+    <header class="header-main d-flex flex-wrap justify-content-center py-3 p-5">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <!-- image logo-->
+            <span class="fs-4">Elevator Speech</span>
+        </a>
+        {% with request.resolver_match.url_name as url_name %}
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="{% url 'resume:home' %}"
+                    class="nav-link {% if url_name == 'home' %}active{% endif %}" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item"><a href="{% url 'resume:addresume' %}"
+                    class="nav-link {% if url_name == 'addresume' %}active{% endif %}">Ride
+                    Elevator</a></li>
+            <li class="nav-item"><a href="{% url 'resume:about' %}"
+                    class="nav-link {% if url_name == 'about' %}active{% endif %}">About</a></li>
+        </ul>
+        {% endwith %}
+    </header>
+
+
+
+
+
+    {% block content %}{% endblock %}
+
+
+    <!-- start footer-->
+    <div class="footer bg-opacity-25 mt-5">
+        <div class="container">
+            <div class="row p-3">
+                <div class="col-sm-12 text-center">
+                    <h4>Elevator Speech</h4>
+                    <h6>Market <mark>Yourself</mark></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end footer-->
+    <!-- start copyright-->
+    <div class="copy-right pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="text-center text-uppercase">copyright &copy; 2022 Elevator Speech all right reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end copyright-->
+</body>
+<script type="text/javascript" src="{% static 'js/jquery-3.6.0.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'css/main.js' %}"></script>
+
+</html>
