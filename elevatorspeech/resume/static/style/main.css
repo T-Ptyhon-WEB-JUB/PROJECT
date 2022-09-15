@@ -86,3 +86,44 @@ header {
 
 
 /* end slider style */
+
+.section-one {
+    height: auto;
+    background: rgb(94, 96, 206);
+    background: radial-gradient(circle, rgba(94, 96, 206, 1) 0%, rgba(114, 239, 221, 1) 100%);
+    ;
+}
+
+.section-two {
+    text-align: center;
+}
+
+.add-form label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.add-form input {
+    display: block;
+    text-align: left;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: rgb(94, 96, 206) solid;
+}
+
+.add-form textarea {
+    display: block;
+    text-align: left;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: rgb(94, 96, 206) solid;
+}
+
+.add-form .submit-btn {
+    border: #ffc300 solid;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+}

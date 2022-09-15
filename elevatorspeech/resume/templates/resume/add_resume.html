@@ -1,0 +1,22 @@
+{% extends 'resume/base.html' %}
+{% load static %}
+{% block title %}Add Short Paragraph{% endblock %}
+{% block content %}
+<div class="container">
+
+
+
+
+    <div class="section-two">
+        {% if msg %}
+        <strong class="dangor me-2" style="color:red ;">{{ message }}</strong>
+        {% endif %}
+        <form class="form m-5 add-form" action="" method=" post">
+            {% csrf_token %}
+            {{ form.as_p }}
+
+            <input class="btn btn-warning submit-btn" type="submit" value="add">
+        </form>
+    </div>
+</div>
+{% endblock %}
