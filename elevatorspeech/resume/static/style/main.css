@@ -1,7 +1,88 @@
 .footer {
-    background-color: blanchedalmond;
+    background-color: #ade8f4;
 }
 
 header {
-    background-color: blanchedalmond;
+    background-color: #ade8f4;
+
 }
+
+.copy-right {
+    background-color: #5E60CE;
+    color: #ffffff;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: transparent;
+    color: #5E60CE;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #000000;
+}
+
+.home-title {
+    font-size: 50px;
+}
+
+.card-title {
+    color: #5E60CE;
+    font-weight: bold;
+}
+
+.card-resume {
+    border-radius: 50px;
+    border: 1px solid #64DFDF;
+}
+
+
+/* slider style */
+
+.slide-main {
+    background-color: #4ea8de;
+    height: 100px;
+}
+
+.slider .carousel-inner {
+    align-items: center;
+}
+
+.slide .carousel-inner .overlay {
+    position: absolute;
+    background-color: #0000003f;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.carousel-item .carousel-caption h2 {
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+.carousel-item .carousel-caption .word-subtitle {
+    color: #ffffff;
+    font-size: 20px;
+
+
+}
+
+.slide .carousel-inner .carousel-item {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    bottom: 15rem;
+    z-index: 3;
+}
+
+
+/* end slider style */
