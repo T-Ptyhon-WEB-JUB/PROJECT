@@ -1,0 +1,36 @@
+{% extends 'home/base.html' %}
+{% block title %}
+Home Page
+{% endblock %}
+{% block content %}
+{% load static %}
+<div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1"> 
+             <span class="text-muted">You can book the appropriate bus to travel safely from home to school.</span></h2>
+        <p class="lead">
+School buses for students include all industrial districts of Jubail with the latest safety specifications to serve our students.</p>
+  </div>
+      <div class="col-md-5">
+<img class="bd-placeholder-img bd-placeholder-img-lg 
+featurette-image img-fluid mx-auto" width="700" height="700" src="{% static 'bluebus.jpg' %}" />
+
+      </div>
+    </div> 
+  
+ 
+
+
+<div class = "row" style="width:600px">
+
+
+   <a href="{% url 'home:add' %}" class="nav-link px> col-2">
+        <input type='submit' value='Al Farouk'  class='btn btn-primary'/>
+  </a>
+
+   <a href="{% url 'home:add2' %}" class="nav-link px> col-2">
+        <input type='submit' value='Al Fordos'  class='btn btn-primary'/>
+  </a>
+</div>
+
+{% endblock %}

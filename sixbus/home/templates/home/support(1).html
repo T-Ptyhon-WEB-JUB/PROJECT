@@ -1,0 +1,32 @@
+{% extends 'home/base.html' %}
+{% block title %}
+Home Page
+{% endblock %}
+{% block content %}
+<h1>Al Farouk</h1>
+{% for note in bus1 %}
+<div class="card">
+   <h5 class="card-header">{{note.name}}</h5>
+  <div class="card-body">
+    <h5 class="card-title">{{note.phone}}</h5>
+    <p class="card-text">{{note.clas}}
+    <br>{{note.address}}</p>
+  </div>
+{% endfor %}
+</div>
+
+<h1>Al Fordos</h1>
+
+{% for note in bus2 %}
+<div class="card">
+  <h5 class="card-header">{{note.name}}</h5>
+  <div class="card-body">
+    <h5 class="card-title">{{note.phone}}</h5>
+    <p class="card-text">{{note.clas}}
+    <br>{{note.address}}</p>
+
+  </div>
+</div>
+
+{% endfor %}
+{% endblock %}
