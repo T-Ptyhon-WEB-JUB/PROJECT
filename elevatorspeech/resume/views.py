@@ -1,12 +1,14 @@
 from django.shortcuts import render, redirect, resolve_url
 from django.http import HttpRequest
 from .forms import *
+from .models import *
 
 
 # Create your views here.
 
 def home(request: HttpRequest):
-    return render(request, 'resume/index.html')
+    data = resumes.objects.all()
+    return render(request, 'resume/index.html', {'resumes': data})
 
 
 def about(request: HttpRequest):
