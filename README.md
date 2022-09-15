@@ -15,9 +15,13 @@ To showcase what you've learned in the development websites with Python course. 
 ## Edit this page and add info about your project 
 
 ### Project Name : 
+jubail Schooler for Transportation 
 
 
 ### Project Description :
-
+Bus registration website for the 6th high school in Jubail Industrial City.
 
 ### Project Features :
+the website will have two buttons to differentiate between each district. 
+Students can enter their information. 
+Bus supervisor will be able to print the reoport of all the students that registered for the bus.
