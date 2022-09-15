@@ -14,10 +14,13 @@ To showcase what you've learned in the development websites with Python course. 
 
 ## Edit this page and add info about your project 
 
-### Project Name : 
+### Project Name : Elevator speech
 
 
-### Project Description :
+### Project Description : elvator speech platform .  It is a platform that allows job seekers to view their resume and personal information so that Managers search for the right employee and communicate with him
 
 
-### Project Features :
+### Project Features :It makes it easier for stakeholders to reach qualified employees
+
+###Team: Amal Alshathri , Fatima Alqadheeb , Hawra Al Mohssin
+
