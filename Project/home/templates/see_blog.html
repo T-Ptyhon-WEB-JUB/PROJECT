@@ -1,7 +1,8 @@
 {% extends "base.html" %}
 
-{% block content %}
+{% block title %} Blogs {% endblock  %}
 
+{% block content %}
 
 <section class="mt-5 pt-5">
     <div class="container">
@@ -22,8 +23,8 @@
             <td>{{blog.title}}</td>
             <td>{{blog.created_at}}</td>
             <td>
-                <a href="{%  url 'blog_update' blog.slug %}" class="btn btn-success">Update</a>
-                <a href="{% url 'blog_delete' blog.id %}" class="btn btn-danger">Delete</a>
+                <a href="{%  url 'app:blog_update' blog.slug %}" class="btn btn-success">Update</a>
+                <a href="{% url 'app:blog_delete' blog.id %}" class="btn btn-danger">Delete</a>
 
 
             </td>

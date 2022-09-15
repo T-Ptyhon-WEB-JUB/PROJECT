@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% block title %} Login {% endblock %}
+
 {% block content %}
 
 <div class="container-fluid px-3">
@@ -10,7 +12,7 @@
           <div class="form-validate">
             <div class="form-group">
               <label class="form-label" for="loginUsername"> Username</label>
-              <input class="form-control" name="loginUsername" id="loginUsername" type="email" placeholder="name@address.com" autocomplete="off" required data-msg="Please enter your email">
+              <input class="form-control" name="loginUsername" id="loginUsername" placeholder="Username" autocomplete="off" required data-msg="Please enter your email">
             </div>
             <div class="form-group mb-4">
               <div class="row">
@@ -22,12 +24,12 @@
             </div>
            
             <!-- Submit-->
-            <button class="btn btn-lg btn-block btn-primary" onclick="login()">Sign in</button>
+            <button class="btn btn-lg btn-block btn-primary" onclick="login()">Sign In</button>
            
             <p class="text-center">
                 <small class="text-muted text-center">
                     Don't have an account yet?
-                    <a href="{% url 'register_view' %}">Sign Up</a>
+                    <a href="{% url 'app:register_view' %}">Sign Up</a>
                 </small>
             </p>
           </div>

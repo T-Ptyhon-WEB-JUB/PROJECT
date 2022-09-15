@@ -1,11 +1,13 @@
 {% extends "base.html" %}
 
+{% block title %} Edit {% endblock  %}
+
 {% block content %}
 
 
 <div class="container mt-5">
 
-    <a href="{% url 'see_blog' %}" class="btn btn-warning">View Your blogs</a>
+    <a href="{% url 'app:see_blog' %}" class="btn btn-warning">View Your blogs</a>
 
     <form method="post" class="mt-5 pt-5 mb-5 pb-5" enctype="multipart/form-data">
         {% csrf_token %}
