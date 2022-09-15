@@ -23,7 +23,7 @@ def get_book(request, book_id: int):
 
 def add_book(request):
     if (request.method == 'POST'):
-        form = BookForm(request.POST)
+        form = BookForm(request.POST, request.FILES)
         if form.is_valid():
             form.save()
             return redirect('store:get_books')
@@ -35,7 +35,7 @@ def add_book(request):
 def edit_book(request, book_id: int):
     if (request.method == 'POST'):
         book = ListedBook.objects.get(id=book_id)
-        form = BookForm(request.POST, instance=book)
+        form = BookForm(request.POST, instance=book, files=request.FILES)
         if form.is_valid():
             form.save()
             return redirect('store:get_books')

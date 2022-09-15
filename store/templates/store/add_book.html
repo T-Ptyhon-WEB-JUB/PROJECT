@@ -1,0 +1,16 @@
+{% extends 'store/base.html' %}
+{% load static %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+{% comment %} a from for creating a book record {% endcomment %}
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <table>
+        {{ form.as_table }}
+    </table>
+    <input type="submit" value="Save">
+</form>
+
+{% endblock content %}
+
