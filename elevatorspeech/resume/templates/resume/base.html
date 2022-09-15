@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <!-- image logo-->
+                <span class="fs-4">Elevator Speech</span>
+            </a>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Ride Elevator</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            </ul>
+        </header>
+        {% block content %}{% endblock %}
+    </div>
+    <!-- start footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h4>Elevator Speech</h4>
+                    <h6>Market Yourself in 100 words</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end footer-->
+    <!-- start copyright-->
+    <div class="copy-right">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="text-center text-uppercase">copyright &copy; 2021 AwtarAlaqar all right reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end copyright-->
+</body>
+
+</html>
