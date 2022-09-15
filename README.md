@@ -14,10 +14,10 @@ To showcase what you've learned in the development websites with Python course. 
 
 ## Edit this page and add info about your project 
 
-### Project Name : 
+### Project Name : JUC portal
 
 
-### Project Description :
+### Project Description : Platform for JUC students where they can post there blogs and explore study groubs
 
 
-### Project Features :
+### Project Features : CRUD 

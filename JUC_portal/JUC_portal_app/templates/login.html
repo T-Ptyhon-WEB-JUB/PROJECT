@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{%block content%}
+<main class="container">
+  <h1>login</h1>
+  <form method="POST" action="">
+    {% csrf_token %}
+    <!-- username input -->
+    <div class="form-outline mb-4">
+      <label class="form-label" for="id">User name</label>
+      {{ form.username }}
+    </div>
+
+    <!-- Password input -->
+    <div class="form-outline mb-4">
+        <label class="form-label" for="password">password</label>
+        {{ form.password }}
+    </div>
+
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary btn-block mb-4">
+      Sign in
+    </button>
+
+    {% for message in messages %}
+    <p>{{message}}</p>
+    {% endfor %}
+
+    <!-- {{form.info}} -->
+
+    <!-- Register buttons -->
+    <div class="text-center">
+      <p>Not a member? <a href="/signup">sign up</a></p>
+    </div>
+  </form>
+</main>
+{% endblock %}
