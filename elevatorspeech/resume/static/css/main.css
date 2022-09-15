@@ -1,0 +1,149 @@
+.footer {
+    background-color: #ade8f4;
+}
+
+header {
+    background-color: #ade8f4;
+
+}
+
+.copy-right {
+    background-color: #5E60CE;
+    color: #ffffff;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: transparent;
+    color: #5E60CE;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #000000;
+}
+
+.home-title {
+    font-size: 50px;
+}
+
+.card-title {
+    color: #5E60CE;
+    font-weight: bold;
+}
+
+.card-resume {
+    border-radius: 50px;
+    border: 1px solid #64DFDF;
+}
+
+
+/* slider style */
+
+.slide-main {
+    background-color: #4ea8de;
+    height: 100px;
+}
+
+.slider .carousel-inner {
+    align-items: center;
+}
+
+.slide .carousel-inner .overlay {
+    position: absolute;
+    background-color: #0000003f;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.carousel-item .carousel-caption h2 {
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+.carousel-item .carousel-caption .word-subtitle {
+    color: #ffffff;
+    font-size: 20px;
+
+
+}
+
+.slide .carousel-inner .carousel-item {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    bottom: 15rem;
+    z-index: 3;
+}
+
+
+/* end slider style */
+
+.section-one {
+    height: auto;
+    background: rgb(94, 96, 206);
+    background: radial-gradient(circle, rgba(94, 96, 206, 1) 0%, rgba(114, 239, 221, 1) 100%);
+    ;
+}
+
+.section-two {
+    text-align: center;
+}
+
+.add-form label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.add-form input {
+    display: block;
+    text-align: left;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: rgb(94, 96, 206) solid;
+}
+
+.add-form textarea {
+    display: block;
+    text-align: left;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: rgb(94, 96, 206) solid;
+}
+
+.add-form .submit-btn {
+    border: #ffc300 solid;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+i {
+    color: #5E60CE;
+    font-size: 20px;
+}
+
+.pdf-link {
+    color: #5E60CE;
+    text-decoration: none;
+}
+
+/* .card-resume:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: #ade8f4;
+} */
+
+.about-title {
+    font-size: 20px;
+}
