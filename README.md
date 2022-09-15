@@ -14,10 +14,10 @@ To showcase what you've learned in the development websites with Python course. 
 
 ## Edit this page and add info about your project 
 
-### Project Name : 
+### Project Name : elvator speech platform
 
 
-### Project Description :
+### Project Description :It is a platform that allows job seekers to view their resume and personal information so that Managers search for the right employee and communicate with him
 
 
 ### Project Features :
